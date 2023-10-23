@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.recipe-list, .recipe-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 45%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-list h2, .recipe-details h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.recipe-details p {
+    margin: 20px 0;
+}
